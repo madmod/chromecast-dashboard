@@ -38,7 +38,7 @@ window.onload = function() {
       }
     }
     else if (event.data['type'] == 'script') {
-      eval(event.data['src'];
+      eval(event.data['src']);
     }
   }
 
