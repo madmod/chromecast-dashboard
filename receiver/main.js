@@ -37,6 +37,9 @@ window.onload = function() {
         $('#dashboard').attr('data-refresh', 0);
       }
     }
+    else if (event.data['type'] == 'script') {
+      eval(event.data['src'];
+    }
   }
 
   // Initialize the CastReceiverManager with an application status message.
